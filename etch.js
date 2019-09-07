@@ -3,14 +3,19 @@ function setBoard() {
     // Create outer container
     let etch = document.createElement('div');
     etch.setAttribute('id', "etch");    
-    // Generate grid
-    for (i = 0; i < 16; i++) {
+    // Generate grid    
+    body.appendChild(generateGrid(etch));
+}
+
+function generateGrid(board, num=16) {
+    for (i = 0; i < num; i++) {
         let etchBlock = document.createElement('div');
         etchBlock.classList.add('etchBlock', i);
-        etch.appendChild(etchBlock);
+        board.appendChild(etchBlock);
     }
-    body.appendChild(etch);
+    return board;
 }
+
 
 function etch() {
     const squares = document.getElementsByClassName("etchBlock");

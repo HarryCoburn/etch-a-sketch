@@ -11,4 +11,9 @@
 .etchBlock {    
     grid-column: auto;
     grid-row: auto;
+    background-color: gray;    
+}
+
+.colored {
+    background-color: black;
 }

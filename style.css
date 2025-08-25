@@ -1,0 +1,10 @@
+#etch-container {
+    display: flex;
+    width: 960px;
+    background-color: red;
+}
+
+.square {
+    background-color: blue;
+    border: solid 2px black;
+}

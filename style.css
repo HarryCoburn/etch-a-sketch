@@ -11,7 +11,7 @@ body {
     flex-wrap: wrap;
     height: 960px; 
     width: 960px;
-    background-color: red;
+    background-color: red; /* for telling if alignments are off */
     border: solid 2px black;   
 }
 

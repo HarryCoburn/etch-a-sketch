@@ -1,10 +1,24 @@
+body {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
 #etch-container {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    height: 960px; 
     width: 960px;
-    height: 960px;
     background-color: red;
     border: solid 2px black;   
+}
+
+#info {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 .square {
@@ -13,4 +27,5 @@
 
 #setSize {
     margin-bottom: 20px;
+    margin-top: 20px;    
 }

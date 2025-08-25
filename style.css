@@ -3,9 +3,14 @@
     flex-wrap: wrap;
     width: 960px;
     height: 960px;
-    background-color: red;   
+    background-color: red;
+    border: solid 2px black;   
 }
 
 .square {
     background-color: white;   
+}
+
+#setSize {
+    margin-bottom: 20px;
 }
